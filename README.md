@@ -35,7 +35,7 @@ print('Change door then win:', sum(change_win))
 print('Not change door then win:', sum(not_change_win))
 ```
 
-    In  1000000 simulations
-    change door then win: 666776
-    not change door then win: 333224
+    In 1000000 simulations
+    Change door then win: 667303
+    Not change door then win: 332697
 
