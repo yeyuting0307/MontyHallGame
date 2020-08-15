@@ -18,13 +18,13 @@ for i in range(simulation_time):
     left_two_doors
 
     # 選擇換門
-    # print('First choice:', user_select) #一開始所選
     change_select = left_two_doors - user_select
+    
+    # print('First choice:', user_select) #一開始所選
     # print('After change:', change_select) #換門之後的選擇
     # print('Ans:', ans)
 
     #換門中獎
-
     change_win.append(change_select == ans)
 
     #不換門中獎
